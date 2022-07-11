@@ -11,6 +11,7 @@ body{
 
 .img_menu {
     max-width: 100%;
+    
 }
 
 .toggle-menu {
@@ -34,12 +35,17 @@ body{
   margin-top:0;
   margin-bottom:0;
   padding-left:0;
-
+  
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  background-color: #35B1BD;
+  background-color: #E9FDFF;
   transform: translateY(-100%);
+  border-radius: 15px;
+  box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+    margin-bottom: 5px;
 }
 
 .main-menu--show {
@@ -48,8 +54,12 @@ body{
 
 @media screen and (min-width: 768px) {
     .main-menu{
-        flex-direction: row
+        flex-direction: row;
+        transform: translateY(0);
     }
+    
+
+
 }
 
 .main-menu_item {
@@ -57,10 +67,10 @@ body{
 }
   
 .main-menu_link{
-    color:white;
-  text-transform:uppercase;
-  text-decoration:none;
-
+    color: black;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -80,14 +90,11 @@ body{
     margin: 0 auto;
     margin-bottom: 20px;
     border-radius: 15px;
-    margin-top: 15px;
+    
 }
 
 .img {  
-    max-width: 65%;
-    width: 65%;
-    margin-left: 70px;
-    
+    max-width: 100%;   
 }
 
 .text__container {
@@ -184,7 +191,7 @@ body{
 
 .academlo {
     width: 15%;
-    height: 25vh;
+    height: 10vh;
     
 }
 
@@ -247,13 +254,13 @@ h2{
    animation: Increase 5s ease ;
 }
 
-@keyframes Increase{
+@keyframes Increase {
     0%{width: 0%;}
     100%{width: var(--w);}
     
 }
 
-.skils:hover .progreso {
+.skilss:active .progreso {
     animation: Increase 5s ease;
 }
 
@@ -318,6 +325,26 @@ h2{
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .Phone {
+        height: 30%;
+    }
+
+    .Gmail {
+        height: 30%;
+    }
+
+    .Abaut_me {
+        height: 40vh;
+    }
+
+    p{
+        margin-top: 10X;
+    }
+
+    
+}
+
 .bx_phone {
     color: #F0A501;
     font-size: clamp(.5rem, 8vw , 6rem);
@@ -327,21 +354,3 @@ h2{
     color: #F0A501;
     font-size: clamp(.5rem, 8vw , 6rem);;
 }
-
-@media screen and (min-width: 320px) {
-
-}
-
-@media screen and (min-width: 500px) {
-
-}
-
-@media screen and (min-width: 1024px) {
-
-}
-
-
-
-
-
-
