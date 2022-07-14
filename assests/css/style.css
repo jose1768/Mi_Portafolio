@@ -235,7 +235,7 @@ h2{
     margin: 0 auto;
    display: grid;
    width:90%;
-   height:70vh;
+   height:60vh;
    grid-row: row;
    grid-template-rows: auto;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -274,13 +274,38 @@ h2{
 
 .Project {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
     width:90%;
-    height:70vh;
+    height:60vh;
     box-shadow: 20px 20px 57px #d3d3d3,
     -20px -20px 57px #ededed;
     border-radius: 15px;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+.e-commer {
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 100%;
+    width: 200px;
+    height: 35vh;
+    justify-content: flex-start;
+    
+    border-radius: 15px;
+    box-shadow: 20px 20px 57px #d3d3d3,
+    -20px -20px 57px #ededed;
+   
+}
+
+.img_ecommer {
+    max-width: 100%;
+
+}
+
+.h3_e-comer{
+    text-align: center;
 }
 
 /* Contact*/
