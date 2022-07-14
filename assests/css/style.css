@@ -294,22 +294,20 @@ h2{
 }
 
 .e-commer {
-    margin-top: 20px;
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 100%;
     width: 200px;
-    max-height: 35vh;
-    justify-content: flex-start;
-    
+    max-height: 50%;
     border-radius: 15px;
-    box-shadow: 20px 20px 57px #d3d3d3,
-    -20px -20px 57px #ededed;
+    box-shadow: 20px 20px 60px #d3d3d3,
+    -20px -20px 60px #ededed;
     margin-bottom: 20px;
 }
 
 .img_ecommer {
-    max-width: 100%;
-
+    max-width: 80%;
 }
 
 .h3_e-comer{
