@@ -80,6 +80,7 @@ body{
 .abaut__container {
     width: 90%;
     height: 70%;
+    max-height: 100%;
     padding: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -179,8 +180,10 @@ body{
     box-shadow:  20px 20px 60px #bebebe,
     -20px -20px 60px #ffffff;
     height: 60vh;
+    max-height: 100%;
     width: 90%;
     display: grid;
+    align-items: center;
     align-content:  center;
     justify-items: center;
     margin: 0 auto;
@@ -234,12 +237,15 @@ h2{
              -20px -20px 60px #ffffff;
     margin: 0 auto;
    display: grid;
+   align-items: center;
    width:90%;
    height:60vh;
+   max-height: 100%;
    grid-row: row;
    grid-template-rows: auto;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    border-radius: 15px;
+   padding-bottom: 20px ;
 }
 
 .barra{
@@ -277,10 +283,11 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:90%;
-    height:70vh;
-    box-shadow: 20px 20px 57px #d3d3d3,
-    -20px -20px 57px #ededed;
+    max-width:90%;
+    height: 60vh;
+    max-height: 100%;
+    box-shadow: 20px 20px 60px #d3d3d3,
+    -20px -20px 60px #ededed;
     border-radius: 15px;
     margin: 0 auto;
     margin-top: 20px;
@@ -291,13 +298,13 @@ h2{
     margin-left: 20px;
     max-width: 100%;
     width: 200px;
-    height: 35vh;
+    max-height: 35vh;
     justify-content: flex-start;
     
     border-radius: 15px;
     box-shadow: 20px 20px 57px #d3d3d3,
     -20px -20px 57px #ededed;
-   
+    margin-bottom: 20px;
 }
 
 .img_ecommer {
@@ -307,6 +314,7 @@ h2{
 
 .h3_e-comer{
     text-align: center;
+    padding-bottom: 10px;
 }
 
 /* Contact*/
@@ -317,10 +325,11 @@ h2{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    align-content: center;
+    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width:90%;
-    height:60vh;
+    max-width:90%;
+    max-height: 100%;
+    height:50vh;
     border-radius: 15px;
     margin: 0 auto;
     margin-top: 20px;
@@ -339,10 +348,12 @@ h2{
              -20px -20px 60px #ffffff;
     border-radius: 15px;
     width: 27%;
-    height: 50%;
+    max-height: 50%;
     margin-right: 10px;
     font-size: clamp(0.1rem, 6vw , 2rem);
     text-align: center;
+    margin: 30px;
+
 }
 
 .Gmail {
@@ -351,10 +362,11 @@ h2{
     padding: 5px;
     border-radius: 15px;
     width: 27%;
-    height: 50%;
+    max-height: 50%;
     margin-left: 10px;
     font-size: clamp(0.1rem, 6vw , 2rem);
     text-align: center;
+    margin: 30px;
 }
 
 @media screen and (max-width: 768px) {
